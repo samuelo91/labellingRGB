@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <group ns="q4">
+        <node pkg="labelling_node" name="labelling_node_4" type="labelling_node_node" output="screen">
+            <param name="bebop_id" value="4" />
+        </node>
+    </group>
+
+</launch>
